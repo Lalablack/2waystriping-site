@@ -59,7 +59,7 @@ nav.top{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.95);backdr
 .nav-links .ph{font-family:'Roboto Mono';font-weight:700;font-size:14px}
 @media(max-width:940px){.nav-links a:not(.btn):not(.ph){display:none}.nav-links{gap:14px}.nav-links .ph{font-size:13px}}
 @media(max-width:420px){.nav-in{height:72px}.nav-links{gap:10px}.nav-links .ph{font-size:12.5px}.nav-links .btn-p{padding:11px 14px;font-size:13.5px}.logo-img{height:58px}}
-@media(max-width:350px){.logo-img{height:46px}}
+@media(max-width:350px){.logo-img{height:46px}.nav-links{gap:8px}.nav-links .ph{font-size:11.5px;white-space:nowrap}.nav-links .btn-p{padding:10px 12px;font-size:13px}}
 
 /* HERO */
 .hero{border-bottom:1px solid var(--edge)}
@@ -223,6 +223,8 @@ footer.ft{background:var(--ink);color:#fff;padding:54px 0 32px}
 .ft .logo .l2{color:#7f8899}
 .ft-btm{border-top:1px solid rgba(255,255,255,.12);margin-top:34px;padding-top:20px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;font-size:13px;color:#7f8899}
 @media(max-width:880px){.ft-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:420px){.ft-grid{grid-template-columns:1fr}}
+.ft-grid a{overflow-wrap:anywhere}
 
 .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
 .form-status{font-size:14px;margin-top:12px;min-height:20px;line-height:1.4}
